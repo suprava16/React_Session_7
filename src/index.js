@@ -1,24 +1,9 @@
 // import React from "react"
 import React from "react"
 import ReactDOM from "react-dom"
+import App from "./App"
 
-ReactDOM.render(
-  // <div>
-  //   <h1>Hello everyone</h1>
-  //   <p>Good evening</p>
-  // </div>
-
-  // <>
-  // <h1>Hello everyone</h1>
-  // <p>Good evening</p>
-  // </>
-  
-  <React.Fragment>
-    <h1>Hello everyone</h1>
-    <p>Good evening</p>
-  </React.Fragment>
-
-  ,
+ReactDOM.render(<App/>,
   document.getElementById("root"))
 
 // JSX-javascript XML
