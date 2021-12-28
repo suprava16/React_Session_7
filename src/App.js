@@ -3,6 +3,8 @@ import {Greet} from "./Greet"
 import PropsPassing from "./ClassComponents/PropsPassing"
 import ComponentA from "./ClassComponents/props/ComponentA"
 import StateVariable from "./ClassComponents/state/StateVariable"
+import SetStateMethod from "./ClassComponents/state/SetStateMethod"
+import OnChangeEvent from "./ClassComponents/state/OnChangeEvent"
 class App extends React.Component {
   render() {
     return (
@@ -12,7 +14,9 @@ class App extends React.Component {
         {/* <PropsPassing name="suprava" age={27}/> */}
 
         {/* <ComponentA/> */}
-        <StateVariable/>
+        {/* <StateVariable/> */}
+        {/* <SetStateMethod/> */}
+        <OnChangeEvent/>
       </div>
 
     )
