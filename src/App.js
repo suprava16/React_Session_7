@@ -5,6 +5,8 @@ import ComponentA from "./ClassComponents/props/ComponentA"
 import StateVariable from "./ClassComponents/state/StateVariable"
 import SetStateMethod from "./ClassComponents/state/SetStateMethod"
 import OnChangeEvent from "./ClassComponents/state/OnChangeEvent"
+import AddData from "./ClassComponents/state/AddData"
+import ArrayData from "./ClassComponents/Array/ArrayData"
 class App extends React.Component {
   render() {
     return (
@@ -16,7 +18,9 @@ class App extends React.Component {
         {/* <ComponentA/> */}
         {/* <StateVariable/> */}
         {/* <SetStateMethod/> */}
-        <OnChangeEvent/>
+        {/* <OnChangeEvent/> */}
+        {/* <AddData/> */}
+        <ArrayData/>
       </div>
 
     )
