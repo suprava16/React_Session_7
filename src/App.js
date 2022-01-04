@@ -7,6 +7,7 @@ import SetStateMethod from "./ClassComponents/state/SetStateMethod"
 import OnChangeEvent from "./ClassComponents/state/OnChangeEvent"
 import AddData from "./ClassComponents/state/AddData"
 import ArrayData from "./ClassComponents/Array/ArrayData"
+import ArrayObject from "./ClassComponents/Array/ArrayObject"
 class App extends React.Component {
   render() {
     return (
@@ -20,7 +21,8 @@ class App extends React.Component {
         {/* <SetStateMethod/> */}
         {/* <OnChangeEvent/> */}
         {/* <AddData/> */}
-        <ArrayData/>
+        {/* <ArrayData/> */}
+        <ArrayObject/>
       </div>
 
     )
