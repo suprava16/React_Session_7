@@ -8,6 +8,9 @@ import OnChangeEvent from "./ClassComponents/state/OnChangeEvent"
 import AddData from "./ClassComponents/state/AddData"
 import ArrayData from "./ClassComponents/Array/ArrayData"
 import ArrayObject from "./ClassComponents/Array/ArrayObject"
+import Welcome from "./FunctionalComponents/Welcome"
+import FunctionalProps from "./FunctionalComponents/FunctionalProps"
+import FunctionaState from "./FunctionalComponents/FunctionaState"
 class App extends React.Component {
   render() {
     return (
@@ -22,7 +25,10 @@ class App extends React.Component {
         {/* <OnChangeEvent/> */}
         {/* <AddData/> */}
         {/* <ArrayData/> */}
-        <ArrayObject/>
+        {/* <ArrayObject/> */}
+        {/* <Welcome/> */}
+        {/* <FunctionalProps  name="Gita" roll={200} email="gita@gmail.com" /> */}
+        <FunctionaState/>
       </div>
 
     )
