@@ -11,6 +11,8 @@ import ArrayObject from "./ClassComponents/Array/ArrayObject"
 import Welcome from "./FunctionalComponents/Welcome"
 import FunctionalProps from "./FunctionalComponents/FunctionalProps"
 import FunctionaState from "./FunctionalComponents/FunctionaState"
+import ChangeEvent from "./FunctionalComponents/ChangeEvent"
+import Conditionalrendering from "./ConditionalRendering/Conditionalrendering"
 class App extends React.Component {
   render() {
     return (
@@ -28,7 +30,9 @@ class App extends React.Component {
         {/* <ArrayObject/> */}
         {/* <Welcome/> */}
         {/* <FunctionalProps  name="Gita" roll={200} email="gita@gmail.com" /> */}
-        <FunctionaState/>
+        {/* <FunctionaState/> */}
+        {/* <ChangeEvent/> */}
+        <Conditionalrendering/>
       </div>
 
     )
