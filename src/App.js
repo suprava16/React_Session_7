@@ -13,6 +13,7 @@ import FunctionalProps from "./FunctionalComponents/FunctionalProps"
 import FunctionaState from "./FunctionalComponents/FunctionaState"
 import ChangeEvent from "./FunctionalComponents/ChangeEvent"
 import Conditionalrendering from "./ConditionalRendering/Conditionalrendering"
+import Main from "./LifeCycle/Main"
 class App extends React.Component {
   render() {
     return (
@@ -32,7 +33,8 @@ class App extends React.Component {
         {/* <FunctionalProps  name="Gita" roll={200} email="gita@gmail.com" /> */}
         {/* <FunctionaState/> */}
         {/* <ChangeEvent/> */}
-        <Conditionalrendering/>
+        {/* <Conditionalrendering/> */}
+        <Main/>
       </div>
 
     )
