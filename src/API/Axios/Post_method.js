@@ -1,3 +1,4 @@
+import axios from 'axios';
 import React, { Component } from 'react'
 
 export default class Post_api extends Component {
@@ -19,21 +20,10 @@ export default class Post_api extends Component {
     })
   }
   handleClick=()=>{
-    fetch("https://reqres.in/api/login",{
-      method:"POST",
-      headers:{
-        "Accept":"application/json",
-        "Content-type":"application/json"
-      },
-      body: JSON.stringify({
-        email: this.state.email,
-        password:this.state.password
-      })
-    })
-    .then((response)=>(response.json()))
-    .then((result)=>{
-      console.log(result)
-    })
+   axios.post("https://reqres.in/api/login",this.state)
+   .then((result)=>{
+     console.log(result)
+   })
   }
   render() {
     return (

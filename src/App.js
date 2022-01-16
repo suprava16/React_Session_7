@@ -15,6 +15,9 @@ import ChangeEvent from "./FunctionalComponents/ChangeEvent"
 import Conditionalrendering from "./ConditionalRendering/Conditionalrendering"
 import Main from "./LifeCycle/Main"
 import FetchData from "./API/FetchData"
+import Post_api from "./API/Post_api"
+import Fetch from "./API/Axios/Fetch"
+import Post_method from "./API/Axios/Post_method"
 class App extends React.Component {
   render() {
     return (
@@ -36,7 +39,10 @@ class App extends React.Component {
         {/* <ChangeEvent/> */}
         {/* <Conditionalrendering/> */}
         {/* <Main/> */}
-        <FetchData/>
+        {/* <FetchData/> */}
+        {/* <Post_api/> */}
+        {/* <Fetch/> */}
+        <Post_method/>
       </div>
 
     )

@@ -11,7 +11,7 @@ export default class FetchData extends Component {
     fetch("https://reqres.in/api/users?page=2")
       .then((response) => (response.json()))
       .then((result) => {
-        console.log(result.data)
+        console.log(result)
         this.setState({
           user: result.data
         })
