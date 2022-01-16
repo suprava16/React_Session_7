@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
-// import Tree from "./images/Tree.jpg"
+import Tree from "../ConditionalRendering/images/tree.jpg"
 import "./style.css" 
 const root={
   color:"red",
-  backgroundColor:"blue",
   fontSize:"40px",
+  backgroundImage:`url(${Tree})`,
+  height:"400px"
 }
 export default class Conditionalrendering extends Component {
   constructor(){

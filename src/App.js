@@ -14,6 +14,7 @@ import FunctionaState from "./FunctionalComponents/FunctionaState"
 import ChangeEvent from "./FunctionalComponents/ChangeEvent"
 import Conditionalrendering from "./ConditionalRendering/Conditionalrendering"
 import Main from "./LifeCycle/Main"
+import FetchData from "./API/FetchData"
 class App extends React.Component {
   render() {
     return (
@@ -34,7 +35,8 @@ class App extends React.Component {
         {/* <FunctionaState/> */}
         {/* <ChangeEvent/> */}
         {/* <Conditionalrendering/> */}
-        <Main/>
+        {/* <Main/> */}
+        <FetchData/>
       </div>
 
     )
