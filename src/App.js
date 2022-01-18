@@ -18,6 +18,8 @@ import FetchData from "./API/FetchData"
 import Post_api from "./API/Post_api"
 import Fetch from "./API/Axios/Fetch"
 import Post_method from "./API/Axios/Post_method"
+import UseEffect_method from "./LifeCycle/UseEffect_method"
+import Design from "./Materialui/Design"
 class App extends React.Component {
   render() {
     return (
@@ -42,7 +44,9 @@ class App extends React.Component {
         {/* <FetchData/> */}
         {/* <Post_api/> */}
         {/* <Fetch/> */}
-        <Post_method/>
+        {/* <Post_method/> */}
+        {/* <UseEffect_method/> */}
+        <Design/>
       </div>
 
     )
