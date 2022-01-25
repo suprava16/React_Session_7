@@ -21,6 +21,7 @@ import Post_method from "./API/Axios/Post_method"
 import UseEffect_method from "./LifeCycle/UseEffect_method"
 import Design from "./Materialui/Design"
 import BootstrapDesign from "./Materialui/BootstrapDesign"
+import ReactRouter from "./Routing/ReactRouter"
 class App extends React.Component {
   render() {
     return (
@@ -48,7 +49,8 @@ class App extends React.Component {
         {/* <Post_method/> */}
         {/* <UseEffect_method/> */}
         {/* <Design/> */}
-        <BootstrapDesign/>
+        {/* <BootstrapDesign/> */}
+        <ReactRouter/>
       </div>
 
     )
